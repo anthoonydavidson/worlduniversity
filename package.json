@@ -1,5 +1,6 @@
 {
   "name": "worlduniversity",
+  "homepage": "https://anthoonydavidson.github.io/worlduniversity/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
