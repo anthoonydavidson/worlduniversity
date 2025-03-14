@@ -13,7 +13,7 @@ function App() {
   return (
     <DataProvider>
 
-      <BrowserRouter>
+      <BrowserRouter basename='/worlduniversity'>
         <ScrollToTop />
         <Navbar />
 
