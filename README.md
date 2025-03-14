@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+### Access the website:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Visit World University](https://anthoonydavidson.github.io/worlduniversity/)
 
-## Available Scripts
+# World University
 
-In the project directory, you can run:
+World University is a React-based web application that provides information about various countries around the world. The application leverages the REST Countries API to fetch and display data about countries, including their population, area, currencies, and more.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Home Page**: Displays the top 10 most populous countries with a hero section and cards for each country.
+- **Search Functionality**: Allows users to search for countries by name, filter by region, and filter by independence status.
+- **Country Details**: Provides detailed information about a selected country, including its flag, population, area, currencies, and a link to its location on Google Maps.
+- **About Page**: Contains information about the application and its purpose.
+- **Responsive Design**: The application is designed to be responsive and works well on various screen sizes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Pages
 
-### `npm test`
+- **Home**: The main landing page that shows the top 10 most populous countries.
+- **Search**: A page where users can search for countries and apply filters.
+- **Details**: A detailed view of a selected country with comprehensive information.
+- **About**: A page that provides information about the application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Components
 
-### `npm run build`
+- **Navbar**: The navigation bar at the top of the application.
+- **Footer**: The footer section of the application.
+- **Hero**: The hero section on the home page.
+- **Card**: A card component used to display country information.
+- **SearchBar**: A search bar component used on the search page.
+- **DropDown**: A dropdown component used for filtering countries.
+- **ScrollToTop**: A component that scrolls the page to the top on route change.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Context
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **DataContext**: Provides the context for managing and accessing country data throughout the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+To get started with the project, clone the repository and install the dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+git clone <repository-url>
+cd worlduniversity
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run the application in development mode:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```sh
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To create a production build:
 
-## Learn More
+```sh
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React
+- React Router
+- Axios
+- Tailwind CSS
+- REST Countries API
