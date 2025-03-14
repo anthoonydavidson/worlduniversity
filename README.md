@@ -40,7 +40,7 @@ World University is a React-based web application that provides information abou
 To get started with the project, clone the repository and install the dependencies:
 
 ```sh
-git clone <repository-url>
+git clone https://github.com/anthoonydavidson/worlduniversity.git
 cd worlduniversity
 npm install
 ```
