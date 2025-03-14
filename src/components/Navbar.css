@@ -1,0 +1,40 @@
+.menu-icon {
+    display: none;
+}
+
+@media (max-width: 850px) {
+    nav {
+       padding: 15px 0;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: #0F172A;
+        z-index: -1;
+        width: 200px;
+        padding-top: 120px;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px 40px;
+    }
+
+    .menu-icon {
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    .hide-mobile-menu {
+        right: -200px;
+    }
+}
